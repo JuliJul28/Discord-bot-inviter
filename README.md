@@ -17,21 +17,4 @@ No installation is required. You can run the script directly using Python.
 
 The script will open your default web browser and navigate to the generated Discord bot invitation link.
 
-## Example
-
-```python
-import webbrowser
-
-id = 'your_bot_id_here'
-def main():
-    url = f"https://discord.com/oauth2/authorize?client_id={id}&scope=bot&permissions=0"
-    webbrowser.open(url)
-
-if __name__ == '__main__':
-    main()
-    print('done.\nengoy your bot!')
-```
-
-Replace `'your_bot_id_here'` with your actual Discord bot ID.
-
 Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
